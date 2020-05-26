@@ -80,14 +80,9 @@ h2 strong {
     margin-bottom: 30px;
 }
 
-
-/*ul li::before {
-    content: counter(li);
-    color: rgb(0, 230, 118);
-    display: inline-block;
-    width: 1.5em;
-    margin-left: -1.2em
-}*/
+#contenu h4 {
+    font-size: 20px;
+}
 
 #liseret {
     width: 100%;
@@ -99,7 +94,7 @@ h2 strong {
 
 #liseret a {
     text-decoration: none;
-    color: black;
+    color: rgb(100, 100, 100);
 }
 
 #liseret .photo {
