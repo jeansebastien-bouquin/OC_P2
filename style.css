@@ -94,6 +94,10 @@ h2 strong {
 
 #liseret a {
     text-decoration: none;
+    color: black;
+}
+
+#loisirs a {
     color: rgb(100, 100, 100);
 }
 
@@ -246,6 +250,14 @@ img {
 
 .item-lieu {
     padding-left: 20px;
+}
+
+.skills {
+    display: flex;
+}
+
+.skill {
+    display: flex;
 }
 
 @media screen and (min-width: 1024px) {
