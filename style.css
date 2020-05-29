@@ -252,12 +252,9 @@ img {
     padding-left: 20px;
 }
 
-.skills {
-    display: flex;
-}
-
-.skill {
-    display: flex;
+.comp-date {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media screen and (min-width: 1024px) {
