@@ -259,16 +259,27 @@ img {
 
 .recommandation {
     display: flex;
+    align;
     justify-content: stretch;
     align-content: flex-start;
     text-decoration: none;
+    flex-direction: column;
 }
 
 .employeur {
     display: inline-block;
     flex-wrap: nowrap;
-    padding: 5px 10px 20px 10px;
-    justify-content: space-between;
+    padding: 30px 15% 20px 10px;
+    justify-content: flex-start;
+}
+
+.employeur a {
+    text-decoration: none;
+    color: black;
+}
+
+.employeur h4 {
+    font-weight: initial;
 }
 
 @media screen and (min-width: 1024px) {
@@ -306,5 +317,20 @@ img {
     }
     .item-date {
         width: 33%;
+    }
+    .recommandation {
+        display: flex;
+        align;
+        justify-content: stretch;
+        align-content: flex-start;
+        text-decoration: none;
+        flex-direction: initial;
+    }
+    .employeur {
+        display: inline-block;
+        flex-wrap: nowrap;
+        padding: 10px 15% 20px 10px;
+        justify-content: flex-start;
+        width: 20%;
     }
 }
