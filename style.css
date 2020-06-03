@@ -257,6 +257,20 @@ img {
     padding-bottom: 10px;
 }
 
+.recommandation {
+    display: flex;
+    justify-content: stretch;
+    align-content: flex-start;
+    text-decoration: none;
+}
+
+.employeur {
+    display: inline-block;
+    flex-wrap: nowrap;
+    padding: 5px 10px 20px 10px;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 1024px) {
     #container {
         flex-wrap: nowrap;
